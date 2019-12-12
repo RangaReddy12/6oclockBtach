@@ -28,16 +28,20 @@ Thread.sleep(5000);
 yearlist.selectByValue("1978");
 Thread.sleep(5000);
 //select one item in month listbox using index
-monthlist.selectByIndex(10);
+monthlist.selectByIndex(10);//selecting tenth item
 System.out.println(monthlist.getFirstSelectedOption().getText());
 Thread.sleep(5000);
 //select one item in year listbox using index
-yearlist.selectByIndex(78);
+yearlist.selectByIndex(78);//selecting 78 item in listbox
 System.out.println(yearlist.getFirstSelectedOption().getText());
 driver.close();
 	}
-
 }
+
+
+
+
+
 
 
 
